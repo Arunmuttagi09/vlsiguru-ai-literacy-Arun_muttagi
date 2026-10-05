@@ -271,25 +271,25 @@ Sources :
 Q9. Prediction, Classification, and Generation
 => # Q9. Prediction, Classification, and Generation
 
-## 1. Classification Table
+1. Classification Table
 
-| Example                                                         | Classification     | Reason                                                             |
-| A. Predicting house prices**                                  | **Prediction**     | Predicts a numerical value, such as the expected price of a house. |
-| B. Detecting whether an image contains a cat**                | **Classification** | Assigns the image to a category such as "cat" or "no cat."         |
-| C. Writing an email with a short instruction**                | **Generation**     | Creates new text based on the given instruction.                   |
-| D. Predicting whether a customer will cancel a subscription** | **Prediction**     | Predicts a future outcome based on customer information.           |
-| E. Summarising a research paper**                             | **Generation**     | Generates a shorter version of the original content.               |
-| F. Identifying whether a transaction is fraudulent**          | **Classification** | Classifies the transaction as fraudulent or legitimate.            |
-| G. Generating an image from a text description**              | **Generation**     | Creates a new image based on the text description.                 |
-| H. Predicting the next word/token in a sentence**             | **Prediction**     | Predicts the most likely next token based on previous tokens.      |
+| Example                                                       | Classification     | Reason                                                         |
+| A. Predicting house prices**                                  | Prediction     | Predicts a numerical value, such as the expected price of a house. |
+| B. Detecting whether an image contains a cat**                | Classification | Assigns the image to a category such as "cat" or "no cat."         |
+| C. Writing an email with a short instruction**                | Generation     | Creates new text based on the given instruction.                   |
+| D. Predicting whether a customer will cancel a subscription** | Prediction     | Predicts a future outcome based on customer information.           |
+| E. Summarising a research paper**                             | Generation     | Generates a shorter version of the original content.               |
+| F. Identifying whether a transaction is fraudulent**          | Classification | Classifies the transaction as fraudulent or legitimate.            |
+| G. Generating an image from a text description**              | Generation     | Creates a new image based on the text description.                 |
+| H. Predicting the next word/token in a sentence**             | Prediction     | Predicts the most likely next token based on previous tokens.      |
 
  2. Why Is Next-Token Prediction Fundamental?
 
-Next-token prediction is fundamental to modern language models because they generate text **one token at a time**. At each step, the model predicts the most likely next token based on the prompt and the tokens that have already been generated.
+Next-token prediction is fundamental to modern language models because they generate text one token at a time. At each step, the model predicts the most likely next token based on the prompt and the tokens that have already been generated.
 
 For example:
 
-```text
+text
 Prompt
   ↓
 Predict next token
@@ -299,7 +299,7 @@ Predict next token
 Predict next token
   ↓
 Continue until response is complete
-```
+
 
 The same basic process can produce different applications:
 
@@ -308,11 +308,9 @@ The same basic process can produce different applications:
 - Coding → generates code token by token.
 - Question answering** → generates the answer token by token.
 
-Therefore, although the final applications look different, they can all rely on the same fundamental mechanism of **repeated next-token prediction.
 
- Key Point
 
- Next-token prediction is the basic mechanism, while writing, summarization, coding, and question answering are applications built on top of it.
+
 
 
 
