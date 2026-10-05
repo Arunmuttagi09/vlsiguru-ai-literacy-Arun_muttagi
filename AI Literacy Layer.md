@@ -1,19 +1,19 @@
 Q1. AI → ML → Deep Learning → Generative AI → Agents
 1. Explain Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, and AI Agent in your own
     words.
-##. Artificial Intelligence (AI)
+-> Artificial Intelligence (AI)
 => AI means making computers perform tasks that normally require human intelligence.
 
-##. Machine Learning (ML)
+-> Machine Learning (ML)
 => ML is a part of AI where computers learn patterns from data and use them to make predictions or decisions.
 
-##. Deep Learning (DL)
+-> Deep Learning (DL)
 => DL is a type of ML that uses multi-layer neural networks to learn complex patterns.
 
-##. Generative AI
+-> Generative AI
 => Generative AI creates new content such as text, images, audio, video, or code.
 
-##. AI Agent
+-> AI Agent
 => An AI Agent understands a goal, plans what to do, uses tools when needed, and takes actions to complete the task.
 
 2. Create one simple hierarchy or concept map showing how these ideas relate.
@@ -269,11 +269,11 @@ Sources :
 
 
 Q9. Prediction, Classification, and Generation
-=> # Q9. Prediction, Classification, and Generation
+=>
 
 1. Classification Table
 
-| Example                                                       | Classification     | Reason                                                         |
+| Example                                                       | Classification |                         Reason                                     |
 | A. Predicting house prices**                                  | Prediction     | Predicts a numerical value, such as the expected price of a house. |
 | B. Detecting whether an image contains a cat**                | Classification | Assigns the image to a category such as "cat" or "no cat."         |
 | C. Writing an email with a short instruction**                | Generation     | Creates new text based on the given instruction.                   |
@@ -307,6 +307,113 @@ The same basic process can produce different applications:
 - Summarization → generates a shorter summary token by token.
 - Coding → generates code token by token.
 - Question answering** → generates the answer token by token.
+
+
+Q10. Design Your Personal AI Verification Protocol
+
+  1. Seven-Step AI Verification Protocol
+
+   Step 1: Define the Problem
+
+    Clearly identify the problem, requirements, inputs, constraints, and expected output.
+
+Why: Ensures that the AI is solving the correct problem.
+Catches: Misunderstood or incomplete requirements.
+
+ Step 2: Inspect Assumptions
+
+Check the assumptions, conditions, and reasoning used by the AI.
+
+Why: AI may make assumptions that are not stated or are incorrect.
+Catches: Hidden assumptions and logical errors.
+
+ Step 3: Check Evidence and Sources
+  Verify important technical claims using reliable documentation, standards, official sources, or trusted references.
+
+Why: AI-generated information may be outdated or unsupported.
+Catches: Hallucinations, incorrect facts, and outdated information.
+
+ Step 4: Test the Result
+  Run the code, calculations, simulations, or other appropriate tests.
+
+Why: A result that looks correct may still fail when actually tested.
+Catches: Bugs, incorrect outputs, runtime errors, and unexpected behavior.
+
+ Step 5: Check Risks and Edge Cases
+  Test unusual inputs and consider security, safety, and other possible failure conditions.
+
+  Why: A solution may work in normal situations but fail in unusual cases.
+  Catches: Security issues, unsafe behavior, and edge-case failures.
+
+ Step 6: Review the Complete Result
+
+Review the verified result and compare it with the original requirements.
+
+Why: Ensures that all parts of the task have been correctly completed.
+Catches: Remaining errors, missing requirements, or unnecessary content.
+
+ Step 7: Accept, Revise, or Reject
+
+ Make the final decision:
+
+- Accept – The result is correct and sufficiently verified.
+- Revise—Errors or weaknesses were found but can be corrected.
+- Reject – The result is unreliable or fundamentally incorrect.
+
+Why: Keeps the human responsible for the final decision.
+Catches: Blind acceptance of AI-generated output.
+
+ 2. Worked Example: AI-Generated Python Code
+
+ Task :
+Ask an AI assistant to write Python code that calculates the average of numbers in a list.
+
+ Applying the Protocol
+
+Step 1 – Define the Problem:
+The program should accept a list of numbers and correctly calculate the average.
+
+Step 2 – Inspect Assumptions:
+Check whether the AI assumes that the list is non-empty and whether it handles decimal numbers correctly.
+
+Step 3 – Check Evidence and Sources:
+Verify that the Python functions and syntax used are supported by reliable Python documentation.
+
+Step 4 – Test the Result:
+Run the code using normal numbers, decimal numbers, a single value, and an empty list.
+
+Step 5 – Check Risks and Edge Cases:
+Check what happens when the list is empty or contains unexpected input.
+
+Step 6 – Review the Complete Result:
+Confirm that the code is understandable, meets the original requirement, and produces the expected output.
+
+Step 7 – Accept, Revise, or Reject:
+If the code works correctly, accept it. If a small error is found, revise it. If the approach is fundamentally wrong, reject it.
+
+ Simple Protocol Flow
+   text
+Define Problem
+      ↓
+Inspect Assumptions
+      ↓
+Check Evidence / Sources
+      ↓
+Test Result
+      ↓
+Check Risks / Edge Cases
+      ↓
+Review Result
+      ↓
+Accept / Revise / Reject
+
+
+ 3. Future Improvement
+  At the end of the 16-week program, I will revisit this protocol and improve it based on what I have learned, including new verification methods, common AI errors, and    lessons from practical examples.
+
+ Final Rule
+ Use AI to assist, but verify its assumptions, evidence, and results before accepting its output for real engineering work.Revise—Errors
+
 
 
 
